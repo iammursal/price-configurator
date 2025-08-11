@@ -11,5 +11,3 @@ else
     run_composer install
 fi
 
-echo "🧹 Clearing caches..."
-run_php artisan optimize:clear

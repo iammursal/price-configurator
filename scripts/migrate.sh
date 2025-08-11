@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Run migrations and fresh install tasks
 
-php artisan make:cache-table
 echo "🗄️ Running migrations..."
 run_php artisan migrate --force
 
